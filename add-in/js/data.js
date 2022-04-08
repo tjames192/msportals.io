@@ -153,9 +153,7 @@ function appendToDocument(html, htmlNode) {
 }
 
 function show() {
-	const id = this.text
-	
-	console.log(id);
+	const id = this.text;
 	
 	if (! (id === 'Home')) {
 		document.getElementById('Home').style.display = "none"
